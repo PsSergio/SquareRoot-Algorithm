@@ -29,7 +29,7 @@ double findSquareRoot(double target, int a, double dx){
 	while (x+dx < target){
 
 		// dy is calculated by the differential of f(x) = squareroot(x)
-		double dy = (aprox * dx) / (2*x);
+		double dy =  dx / (2*aprox);
 
 		x+=dx;
 
